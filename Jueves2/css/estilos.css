@@ -1,0 +1,121 @@
+body {   /* Modificamos o damos Formato a nuestra pagína  */
+	margin: 0;
+	margin-top: -20px;
+	height: 100%;
+	padding: 0;
+	//background: #DA889D;
+	font-family: Arial,Verdana;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+h1{
+	color: #FFF;
+	padding: 20px;
+	//text-align: center;
+}
+
+.titulo_principal{
+	background: #DB0B73;
+}
+
+ .menu_navegacion ul{
+	margin: 10px;
+	padding: 10px;
+ }
+
+ .menu_navegacion li{
+ 	display: inline;
+ 	color: #E647F9;
+ }
+ .menu_navegacion a{
+ 	border-radius: 50px;
+  	margin: 10px;
+ 	padding: 10px;
+ 	text-decoration: none;
+ 	background: #FF9DC9;
+
+ }
+
+.menu_navegacion li.active a,
+.menu_navegacion li:hover a{
+ 	background: pink;
+ 	color: magenta;
+ }
+
+.informacion h1{
+	color: #DB0B73;
+	padding: 20px;
+	//text-align: center;
+}
+.informacion{
+	color : #DB0B73;
+	margin: 50px;
+	border-top: 2px solid #FF0DFF;
+
+}
+
+.informacion li{
+	color: pink
+	
+}
+
+
+.cicle{
+	border-radius: 50%;
+}
+
+.cicle2{
+	border-radius: 20%;
+}
+.caja{
+	//position: center; /*Centrar la fuente*/
+	//width: 500px;  /*tamaño ancho*/
+	//height: 100px; /*tamaño largo*/
+	//background: #000; /*fondo*/
+	//right: 500px;
+	//font-size: 30px; /*tamaño fuente*/
+	float: center; /*centrar el cuadro*/
+	position: absolute;
+	top:300px; 
+	//bottom:500px;
+	right:250px;
+	left:250px;
+
+}
+
+.imagen{
+	position: absolute;
+	top:450px; 
+	right:250px;
+	left:250px;
+}
+
+.imagen2{
+	position: absolute; /*Centrar la fuente*/
+	top:450px; 
+	//right:250px;
+	left:150px; 
+}
+
+.imagen3{
+	position: absolute; /*Centrar la fuente*/
+	top:500px; 
+	right:150px;
+	//left:150px;
+}
+
+.imagen4{
+	position: absolute; /*Centrar la fuente*/
+	top:200px; 
+	right:150px;
+	//left:150px;
+}
+.estudios{
+	position: absolute;
+	left: 0;
+	text-align: left;
+}

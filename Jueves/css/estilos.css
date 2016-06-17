@@ -1,0 +1,47 @@
+div{
+	width: 250px;
+	height: 150px;
+	font-size: 30px;
+	float: right;
+
+}
+div corazon{
+	width: 250px;
+	height: 150px;
+	font-size: 30px;
+	float: right;
+}
+
+.corazon{
+	position: absolute;
+	top:0px; 
+	bottom:0px;
+	right:0px;
+	left:0px;
+
+}
+.caja{
+	position: absolute;
+	top:0px; 
+	bottom:0px;
+	right:0px;
+	left:0px;
+
+}
+
+.cajagrande{
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+.rosa{
+	background:  pink
+}
+.amarillo{
+	background:  yellow
+}
+.azul{
+	background:  blue
+}
+
+
