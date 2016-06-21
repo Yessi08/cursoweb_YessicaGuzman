@@ -23,7 +23,7 @@ h1{
 }
 
  .menu_navegacion ul{
-	margin: 10px;
+	margin: 30px;
 	padding: 10px;
  }
 
@@ -116,6 +116,6 @@ h1{
 }
 .estudios{
 	position: absolute;
-	left: 0;
+	//left: 0;
 	text-align: left;
 }

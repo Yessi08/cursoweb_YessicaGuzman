@@ -1,0 +1,195 @@
+body{
+	background: url(../imagenes/restaurant5.jpg) no-repeat fixed center center;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+h1{
+	font-size: 35px;
+	color: #033371;
+	padding: 0px;
+	text-align: center;
+	margin: 0px;
+}
+
+h2{
+	font-size: 25px;
+	color: #B78E26;
+	text-align: center;
+	margin top: -20px;
+	font-family:verdana;
+}
+
+p{
+	color: white;
+	font-family: arial,verdana;
+}
+
+.cuadro{
+	background: #fff; 
+	padding: 15px 0; /*margin: 15px 0;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	position: relative fixed;
+	width: 220px;
+	height: 100px;
+}
+
+.cuadro1 {
+	padding: 0px;
+	position: relative fixed;
+	width: 220px;
+	height: 515px;
+	font-family: arial,verdana;
+}
+
+.menu_navegacion{
+	background: #fff;
+	padding: 10px 10px;
+	color : #B78E26;  /*para la linea 1 */
+	border-top: 2px solid #003257;
+	
+}
+.menu_navegacion ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu_navegacion ul li{
+	list-style: none;
+	margin: 50px;
+}
+
+.menu_navegacion ul li a{
+	padding: 10px 10px;
+	text-decoration:none;
+	color: #033371; 
+	padding: 20px 20px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+}
+.restaurante a{
+	text-decoration: none
+}
+
+.menu_navegacion li.active a,
+.menu_navegacion li:hover a{
+ 	background: #003257 ;
+ 	color: #FFF;
+
+ }
+
+.inicio{
+	background: #033371; 
+	padding: 5px 5px;
+	margin: center;
+	font-size: 15px; /*tamaño fuente*/
+	float: center; /*centrar el cuadro*/
+	position: absolute;
+	top:200px; 
+	right:220px;
+	left:450px;
+} 
+
+.menu{
+	background: #033371; 
+	padding: 5px 5px;
+	font-size: 15px; /*tamaño fuente*/
+	float: center; /*centrar el cuadro*/
+	position: absolute;
+	top:20px; 
+	right:120px;
+	left:350px;
+	text-align: left;
+} 
+
+.menu p{
+	font-size: 10px;
+
+}
+ .menu ul{
+ 	list-style: none;
+ }
+
+.menu1{
+	width: 33%;
+	float: left;
+
+}
+
+.menu1 img{
+	width: 70% ;
+	padding: 5px;
+}
+
+
+.menu2{
+	width: 33%;
+	float: left;
+	
+}
+
+.menu2 img{
+	width: 70%;
+}
+
+.menu3{
+	width: 33%;
+	float: right;
+
+}
+
+.menu3 img{
+	width: 70%;
+	float: center;
+
+}
+.nuestra_carta{
+	background: #033371; 
+	padding: 5px 5px;
+	font-size: 10px; /*tamaño fuente*/
+	float: center; /*centrar el cuadro*/
+	position: absolute;
+	top:20px; 
+	right:220px;
+	left:450px;
+	text-align: left;
+}
+
+.contacto{
+	background: #033371; 
+	padding: 5px;
+	font-size: 12px; /*tamaño fuente*/
+	position: absolute;
+	bottom:20px; 
+	right:120px;
+	color: #FFF;
+}
+
+.contacto{
+	background: #033371; 
+	padding: 5px;
+	font-size: 12px; /*tamaño fuente*/
+	position: absolute;
+	bottom:20px; 
+	right:120px;
+	color: #FFF;
+}
+
+.ubicacion{
+	background: #033371; 
+	padding: 5px;
+	font-size: 12px; /*tamaño fuente*/
+	position: absolute;
+	bottom:20px; 
+	right:120px;
+	color: #FFF;
+	//text-decoration: none;
+}
+
+.ubicacion a{
+ 	text-decoration: none;
+ }

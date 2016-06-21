@@ -1,15 +1,17 @@
 div{
-	width: 250px;
-	height: 150px;
+	//width: 250px;
+	//height: 150px;
 	font-size: 30px;
-	float: right;
+	//float: right;
+	//float: center;
+	text-align: center;
 
 }
 div corazon{
 	width: 250px;
 	height: 150px;
 	font-size: 30px;
-	float: right;
+	//float: right;
 }
 
 .corazon{
@@ -18,7 +20,6 @@ div corazon{
 	bottom:0px;
 	right:0px;
 	left:0px;
-
 }
 .caja{
 	position: absolute;
@@ -26,16 +27,17 @@ div corazon{
 	bottom:0px;
 	right:0px;
 	left:0px;
-
 }
 
 .cajagrande{
-	position: relative;
+	position: absolute;
 	width: 500px;
 	height: 500px;
+	display: inline;
+
 }
 .rosa{
-	background:  pink
+	background:  pink;
 }
 .amarillo{
 	background:  yellow
@@ -43,5 +45,18 @@ div corazon{
 .azul{
 	background:  blue
 }
+.morado{
+	background:  purple;
+	width:50%;
+	float: left;
+
+}
+.verde{
+	background:  green;
+	//position: relative;
+	width: 50%;
+	float:right;
+}
+
 
 
